@@ -1,7 +1,5 @@
 # Neural Network Charity Analysis
 
-# Cryptocurrencies
-
 ## Background
 
 
