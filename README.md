@@ -73,17 +73,28 @@ NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE	STATUS, INCOME_AMT
 In this case, Name is the most important feature in this model as there are companies like PARENT BOOSTER USA INC that had applied 1260 times.
 
 3. What variable(s) are neither targets nor features, and should be removed from the input data?
+
 EIN
 
 ### Compiling, Training, and Evaluating the Model
 
 1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
-I've kept the original model as recommended with
+
+I've kept the original model as recommended. See below.
+* Activation function: RELU
+* Epochs: 100
+2 hidden layers and their corresponding nodes:
+* hidden_nodes_layer1 = 80
+* hidden_nodes_layer2 = 30
+
+The reason is changing these parameters did not yield better accuracy results. See explanation below in [Optimize your model in order to achieve a target predictive accuracy higher than 75%](#optimize-your-model-in-order-to-achieve-a-target-predictive-accuracy-higher-than-75)
 
 2. Were you able to achieve the target model performance?
+
 Yes.
 
 3. What steps did you take to try and increase model performance?
+
 By adding "NAME" feature.
 
 ### Optimize your model in order to achieve a target predictive accuracy higher than 75%
@@ -93,7 +104,6 @@ The biggest factor in achieving the target of more than 75% accuracy is by addin
 268/268 - 1s - loss: 0.4557 - accuracy: 0.7915
 Loss: 0.4556748569011688, Accuracy: 0.7914868593215942
 
-
 Subsequently changing the activation function and adding another hidden layer did not improve the model by much. at most 0.1%. See results below.
 
 Activation function Sigmoid:
@@ -101,7 +111,7 @@ Activation function Sigmoid:
 268/268 - 1s - loss: 0.4415 - accuracy: 0.7923
 Loss: 0.4415421187877655, Accuracy: 0.792303204536438
 
-Add Hidden Layer 3:
+Adding hidden layer 3:
 
 268/268 - 1s - loss: 0.4552 - accuracy: 0.7918
 Loss: 0.4551962912082672, Accuracy: 0.7918367385864258
