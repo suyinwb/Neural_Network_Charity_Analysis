@@ -120,7 +120,8 @@ Loss: 0.4551962912082672, Accuracy: 0.7918367385864258
 
 ## Summary
 
-This new optimised model can predict the success of each applicant with 79.15% accuracy if funded by Alphabet Soup.
+This new optimised model can predict the success of each applicant with 79.15% accuracy if funded by Alphabet Soup. Sometimes a feature that a human assume is inconsequential turns out to be an important factor. This shows that ML model has inherent bias from the person who wrote it. 
+
 With the same dataset, another more suitable model such as Support vector machines (SVMs) would be less resource intensive and also produces good classification results.  
 
 ## Appendix
