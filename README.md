@@ -36,7 +36,7 @@ From Alphabet Soup’s business team, Beks received a CSV containing more than 3
 * charity_data.csv
 
 ### 3. Define Strategy & Metrics
-**Resource:** Python, numpy, pandas, path, hvplot.pandas, sklearn, plotly.express, StandardScaler, MinMaxScaler, PCA, KMeans
+**Resource:** Python, numpy, pandas, sklearn, plotly.express, StandardScaler, OneHotEncoder, tensorflow, 
 
 #### 4. Data Retrieval Plan
 NA
@@ -83,9 +83,9 @@ EIN
 I've kept the original model as recommended. See below.
 * Activation function: RELU
 * Epochs: 100
-2 hidden layers and their corresponding nodes:
-* hidden_nodes_layer1 = 80
-* hidden_nodes_layer2 = 30
+* 2 hidden layers and their corresponding nodes:
+  * hidden_nodes_layer1 = 80
+  * hidden_nodes_layer2 = 30
 
 The reason is changing these parameters did not yield better accuracy results. See explanation below in [Optimize your model in order to achieve a target predictive accuracy higher than 75%](#optimize-your-model-in-order-to-achieve-a-target-predictive-accuracy-higher-than-75)
 
