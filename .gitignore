@@ -5,4 +5,9 @@
 #practice directory
 practice/*
 
+#checkpoints directory
+checkpoints/*
+*checkpoints*
+
 #data file
+charity_data.csv
