@@ -57,6 +57,7 @@ The "Proper" Conclusion is indicated below in [Summary](#summary)
 ## Analysis
 
 The first model yields the results below:
+
 268/268 - 1s - loss: 0.5555 - accuracy: 0.7273
 Loss: 0.5555166602134705, Accuracy: 0.7273469567298889
 
