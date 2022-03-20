@@ -64,19 +64,23 @@ This shows that it is only 72.73% accurate.
 
 ### Data Preprocessing
 1. What variable(s) are considered the target(s) for your model?
+
 IS_SUCCESSFUL is the target for the model because this indicate that the applicant is successful.
 
 2. What variable(s) are considered to be the features for your model?
+
 NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE	STATUS, INCOME_AMT, ASK_AMT.
 
 In this case, Name is the most important feature in this model as there are companies like PARENT BOOSTER USA INC that had applied 1260 times.
 
 3. What variable(s) are neither targets nor features, and should be removed from the input data?
+
 EIN
 
 ### Compiling, Training, and Evaluating the Model
 
 1. How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 I've kept the original model as recommended. See below.
 * Activation function: RELU
 * Epochs: 100
@@ -87,9 +91,11 @@ I've kept the original model as recommended. See below.
 The reason is changing these parameters did not yield better accuracy results. See explanation below in [Optimize your model in order to achieve a target predictive accuracy higher than 75%](#optimize-your-model-in-order-to-achieve-a-target-predictive-accuracy-higher-than-75)
 
 2. Were you able to achieve the target model performance?
+
 Yes.
 
 3. What steps did you take to try and increase model performance?
+
 By adding "NAME" feature.
 
 ### Optimize your model in order to achieve a target predictive accuracy higher than 75%
