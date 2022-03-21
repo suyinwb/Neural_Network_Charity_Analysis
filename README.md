@@ -106,7 +106,7 @@ The biggest factor in achieving the target of more than 75% accuracy is by addin
 268/268 - 1s - loss: 0.4557 - accuracy: 0.7915
 Loss: 0.4556748569011688, Accuracy: 0.7914868593215942
 
-Subsequently changing the activation function and adding another hidden layer did not improve the model by much. at most 0.1%. See results below.
+Subsequently changing the activation function and adding another hidden layer did not improve the model by much; at most 0.1%. See results below.
 
 Activation function Sigmoid:
 
